@@ -20,6 +20,7 @@ class CreateRetrieveViewSet(
     pass
 
 
+
 class LightCatViewSet(CreateRetrieveViewSet):
     queryset = Cat.objects.all()
     serializer_class = CatSerializer
